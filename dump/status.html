@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sv">
+    
+    <head>        
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <link href="assets/style/general.css" rel="stylesheet">
+        <title>Nickstabadet</title>
+    </head>
+    
+    <body>
+        <header class="header">
+            <h1>Nickstabadet</h1>
+            <p>Ett soligt sommarbad</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Hem">Hem</a></li>
+                <li><a href="contact.html" title="Kontakt">Kontakt</a></li>
+                <li><a href="status.html" title="Väder">Väder</a></li>
+            </ul>
+            <ul class="tillbaks">
+                <li><a href="index.html" title="Tillbaks">Tillbaks</a></li>  <!-- osäker -->
+            </ul>
+        </nav>
+          
+        <aside>
+          <div class="weather">
+              <h2>Vädret på Nicksta</h2>
+              <table id="weatherTable">
+                  <thead>
+                      <tr>
+                          <th>Klocka</th>
+                          <th>Väder</th>
+                          <th>Värme</th>
+                          <th>Vind</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>09:00</td>
+                          <td>Moln</td>
+                          <td>16<sup>o</sup>C</td>
+                          <td>3ms/s</td>
+                      </tr>
+                      <tr>
+                          <td>12:00</td>
+                          <td>Sol</td>
+                          <td>18<sup>o</sup>C</td>
+                          <td>4m/s</td>
+                      </tr>
+                      <tr>
+                          <td>15:00</td>
+                          <td>Sol</td>
+                          <td>20<sup>o</sup>C</td>
+                          <td>2m/s</td>
+                      </tr>
+                      <tr>
+                          <td>18:00</td>
+                          <td>Regn</td>
+                          <td>19<sup>o</sup>C</td>
+                          <td>3m/s</td>
+                      </tr>
+                      <tr>
+                          <td>21:00</td>
+                          <td>Moln</td>
+                          <td>17<sup>o</sup>C</td>
+                          <td>1m/s</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+        </aside>
+        <main>
+          <div class="train">
+              <h2>Åker tågen?</h2>
+              <p>Jag åker ifrån..<input type="text" name="travelFrom" size="20" maxlength="50"><br>
+              <input type="button" name="send" value="Skicka.."></p>
+              <table id="trainTable">
+                  <caption>Åker från:</caption>
+                  <thead>
+                      <tr>
+                          <th>Nr</th>
+                          <th>Avgår</th>
+                          <th>Ankommer</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>42</td>
+                          <td>10:25</td>
+                          <td>11:23</td>
+                      </tr>
+                      <tr>
+                          <td>42</td>
+                          <td>12:25</td>
+                          <td>13:23</td>
+                      </tr>
+                      <tr>
+                          <td>42</td>
+                          <td>14:25</td>
+                          <td>15:23</td>
+                      </tr>
+                  </tbody>
+              </table>
+              <p id="trafficInfo">Inga problem i trafiken</p>
+          </div>
+        </main>
+        <div class="clear"></div>
+          <footer class="footer">
+              <p>Vill du veta mer? Skicka e-post till <a href="mailto:kavzor@gmail.com">kavzor@gmail.com</a></p>
+          </footer>
+    </body>
+    
+</html>

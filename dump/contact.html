@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>        
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <link href="assets/style/general.css" rel="stylesheet">
+        <title>Nickstabadet</title>
+    </head>
+    
+    <body>
+        <header class="header">
+            <h1>Nickstabadet</h1>
+            <p>Ett soligt sommarbad</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Hem">Hem</a></li>
+                <li><a href="contact.html" title="Kontakt">Kontakt</a></li>
+                <li><a href="status.html" title="Väder">Väder</a></li>
+            </ul>
+            <ul class="tillbaks">
+                <li><a href="index.html" title="Tillbaks">Tillbaks</a></li>  <!-- osäker -->
+            </ul>
+        </nav>
+        <main>
+            <form>
+                <h2>Lämna dina synpunkter här!</h2>
+                <p>Rubrik<input type="text" name="rubrik" size="20" maxlength="50"></p>
+                <p>Beskrivning<textarea name="beskrivning" rows="2" cols="20" maxlength="100"></textarea>Max 100 tecken</p>
+                <p>Ärende
+                <select name="topic">
+                    <option value="beach">Strand</option>
+                    <option value="camping">Camping</option>
+                    <option value="waterpark">Vattenpark</option>
+                </select></p>
+                <p>Vill du få svar på din synpunkt?<br>
+                Ja<input type=radio name="yesNo" value="yes">
+                Nej<input type=radio name="yesNo" value="no" checked><br>
+                Email<input type="text" name="email" size="20" maxlength="60"><br>
+                <input type="button" name="send" value="Skicka..."></p>
+            </form>
+        </main>
+        <div class="clear"></div>
+        <footer class="footer">
+              <p>Vill du veta mer? Skicka e-post till <a href="mailto:kavzor@gmail.com">kavzor@gmail.com</a></p>
+        </footer>
+    </body>
+    
+</html>

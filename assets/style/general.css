@@ -1,0 +1,59 @@
+
+header {
+    background-image: url('../images/layout/header-sky.jpg');
+    padding: 20px 40px 0px 40px;
+    background-repeat: repeat-x; 
+    color: #00ACE9;
+}
+
+
+.container {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+aside {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #00ACE9;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+main, aside {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(91,120,222,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(91,120,222,1);
+    box-shadow: 0px 0px 10px 1px rgba(91,120,222,1);
+    margin-top: 10px;
+}
+
+form {
+    padding: 20px;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
+
+figure {
+    float: left;
+}
+
+.text-block {
+    width: 85%;
+    float: right;
+    text-align: left;
+}
+
+.full-width {
+    width: 1280px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}

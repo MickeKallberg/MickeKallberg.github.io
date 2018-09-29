@@ -1,0 +1,109 @@
+@import "reset.css";
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: #cacaca;
+}
+
+header {
+    background-image: url('../images/layout/header-sky.jpg');
+    padding: 40px;
+    height: 30px;
+    color: #00ACE9;
+}
+
+/* NAVIGATION */
+
+nav {
+    background: #404040;
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: #F6F6E8;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background: #00ACE9;
+}
+
+.tillbaks {
+    float: right;
+}
+
+ul {
+    display: inline-block;
+}
+/*
+nav li:active {
+    background: #00ACE9;
+}
+*/
+li {
+    /*border: 1px solid red;*/
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+
+main {
+    border: 1px solid #00ACE9;
+    background: #ffffff;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    float: left;
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px -5px 0px 0px rgba(138,165,209,1);
+    -moz-box-shadow: 0px -5px 0px 0px rgba(138,165,209,1);
+    box-shadow: 0px -5px 0px 0px rgba(138,165,209,1);
+}
+
+aside {
+    border: 1px solid #00ACE9;
+    background: #ffffff;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    float: right;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* TYPOGRAPHY */
+
+H2, H3 {
+    color: #6A9A1F;
+    margin-bottom: 15px;
+}
+
+footer {
+    border-top: 1px solid #00ACE9;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/**  Detta för att egenskaperna float left/ right  **/
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 667px){
+    aside{
+        width: 85%;
+    }
+    aside img {
+        max-width: 30%;
+    }
+    main {
+        width: 85%;
+    }
+
+}
