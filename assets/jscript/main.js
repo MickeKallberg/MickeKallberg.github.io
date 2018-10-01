@@ -39,7 +39,7 @@ ajax.onreadystatechange = function() {
 
 var city = 'Nynashamn';
 var apikey = '5369329286077d558f164e9942f15604';
-ajax.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?&units=metric&lang=se&q=' + city + '&APPID=' + apikey, true);
+ajax.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?&units=metric&lang=se&q=' + city + '&APPID=' + apikey, true);
 ajax.send();
 
 function printWeather(data) {
