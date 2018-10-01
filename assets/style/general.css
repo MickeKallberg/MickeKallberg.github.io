@@ -57,3 +57,10 @@ figure {
 .margin-top {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 667px){
+    .container {
+        flex-direction: column-reverse;
+    }
+
+}
